@@ -115,11 +115,6 @@ In order to incorporate plugins into your docker container
 - Mount this file as a volume `-v $(pwd)/requirements.txt:/requirements.txt` (or add it as a volume in docker-compose file)
 - The entrypoint.sh script execute the pip install command (with --user option)
 
-## UI Links
-
-- Airflow: [localhost:8080](http://localhost:8080/)
-- Flower: [localhost:5555](http://localhost:5555/)
-
 
 ## Scale the number of workers
 
